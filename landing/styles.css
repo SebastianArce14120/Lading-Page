@@ -1,0 +1,45 @@
+header{
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    padding: 0.5em;
+    margin: 2em 20em;
+    height: 50px;
+}
+
+header h1{
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+}
+
+header ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+    float: right;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    border: solid;
+    border-color: #060606;
+    border-radius: 50px;
+    background-color: #1690c0;
+    color: white;
+    padding: 0.3em;
+}
+
+header ul li a:hover{
+    background-color: #729ad2;
+    border-color: #1690c0;
+}
+
+header ul li a:active{
+    padding: 0.2em;
+}
