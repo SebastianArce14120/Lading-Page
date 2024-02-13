@@ -1,22 +1,15 @@
 header{
-    display: block;
+    display:block;
     text-align: center;
     background-color: #000000;
-    padding: 0.5em;
-    margin: 2em 20em;
-    height: 50px;
-}
-
-header h1{
-    text-transform: uppercase;
-    float: left;
-    margin: 0;
+    width="00" height="00"
+    height: 0px;
 }
 
 header ul{
     display: inline;
     list-style-type: none;
-    margin: 0.5em auto;
+    margin: 0.9em auto;
     text-align: center;
     float: right;
 }
@@ -28,18 +21,65 @@ header ul li{
 header ul li a{
     text-decoration: none;
     border: solid;
-    border-color: #060606;
-    border-radius: 50px;
-    background-color: #1690c0;
-    color: white;
+    border-color: #760b0b;
+    border-radius: 600px;
+    background-color: #ae0c0c;
+    color: rgb(0, 0, 0);
     padding: 0.3em;
 }
 
 header ul li a:hover{
-    background-color: #729ad2;
-    border-color: #1690c0;
+    background-color: rgb(165, 20, 20);
+    border-color: #370202;
 }
 
 header ul li a:active{
-    padding: 0.2em;
+    padding: 40em;
 }
+
+
+h1 {
+  margin: 0;
+  padding: 40px 0;
+  color: #90141c;
+  text-shadow: 3px 3px 1px rgb(9, 5, 112);
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+p {
+  background: rgb(232, 215, 215);
+  border: 3px solid rgb(46, 46, 125);
+  padding: 50px;
+  margin: 50px;
+}
+
+span {
+  background: rgb(230, 113, 113);
+  border: 1px solid black;
+}
+
+.positioned {
+  position: relative;
+  background: rgb(228, 228, 1);
+  top: 30px;
+  left: 30px;
+}
+
