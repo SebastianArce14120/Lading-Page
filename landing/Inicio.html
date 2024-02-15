@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias Deportivas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="header__logo">
+      <img src="Assets/logo.png_285119621.webp" alt="logo" id="logo">
+    </a>
+    <div class="header__buttons-left">
+      <a href="#" class="header__button">Login</a>
+      <a href="registro/Registro.html" class="header__button">Registrarse</a>
+      <a href="#" class="header__button">Contacto</a>
+      <div class="header__dropdown">
+        <button class="header__button header__button--dropdown">Secciones</button>
+        <div class="header__dropdown-content">
+          <a href="#FutbolColombiano">Fútbol Colombiano</a>
+          <a href="#FutbolInternacional">Fútbol Internacional</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__buttons-right">
+      <div class="header__search-container">
+        <input type="text" placeholder="Buscar..." class="header__search">
+        <button class="header__button header__button--search">
+          <span class="material-icons">Buscar</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <div class="section__content">
+        <h1 class="section__title">TOTAL SPORT</h1>
+      </div>
+    </section>
+
+    <section id="FutbolColombiano" class="section">
+      <div class="container">
+        <h2 class="section-title">Fútbol Colombiano</h2>
+        <article class="article">
+          <img src="Assets/Nacional.jpg" width="260" height="280" alt="Nacional" class="article__image"> 
+          <div class="article__content">
+            <h3 class="article__title">"Historia y actualidad del fútbol colombiano"</h3> 
+            <p class="article__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod, felis vel fermentum
+              consectetur, odio ex consequat lorem, vel fringilla urna elit at mi.
+            </p> 
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="FutbolInternacional" class="section">
+      <div class="container">
+        <h2 class="section-title">Fútbol Internacional</h2>
+        <article class="article">
+          <img src="Assets/internacional.jpg" width="260" height="280" alt="Nacional" class="article__image"> 
+          <div class="article__content">
+            <h3 class="article__title">"El panorama global del fútbol: tendencias y eventos internacionales"</h3> 
+            <p class="article__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod, felis vel fermentum
+              consectetur, odio ex consequat lorem, vel fringilla urna elit at mi.
+            </p> 
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
